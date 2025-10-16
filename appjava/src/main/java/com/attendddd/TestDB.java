@@ -8,7 +8,8 @@ public class TestDB {
         try (Connection conn = DBConnection.getConnection()) {
             System.out.println("Connected to MySQL successfully!");
         } catch (Exception e) {
-            e.printStackTrace();
+            e.printStackTrace();//vvv
+            
         }
     }   
 }
